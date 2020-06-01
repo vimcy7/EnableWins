@@ -1,0 +1,4 @@
+(executable
+  (name enable_wins)
+	(libraries digestif.c checkseum.c irmin irmin-unix)
+	(modules enable_wins))
